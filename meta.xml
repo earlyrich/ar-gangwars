@@ -1,0 +1,187 @@
+<meta>
+	<info author="Gta-MGabs" type="Gamemode" name="Gang Wars" version="X1" />
+	<min_mta_version client="1.3.0-9.04570" server="1.3.0-9.04570"></min_mta_version>
+	<file src="img-i/1.jpg"/>
+    <file src="img-i/2.jpg"/>
+    <file src="img-i/3.jpg"/> 
+	<file src="img-i/T.txd"/> 
+	
+	<file src="img-i/1.png"/>
+    <file src="img-i/2.png"/> 
+	<file src="img-i/3.png"/>  
+	<file src="img-i/ff.ttf"/>
+	<script src="GW/intro.lua" cache="false" type="client"/>
+	<script src="GW/login.lua" cache="false" type="client"/> 
+	
+	<script src="GW/house_pos.lua" />  
+	<script src="GW/GW_s.lua" />  
+	<script src="GW/GW_poistion.lua" type="client"  cache="false"  /> 
+	<script src="GW/GW_c.lua" type="client"  cache="false"  />
+	<script src="GW/LevelDx.lua" type="client"  cache="false"  />
+	<export function="HideBank" type="client"/>   
+	<export function="starsEscape" type="client"/>   
+    <export function="notification" type="server"/>	
+
+	<export function="setSkipIntro" type="client"/>  
+	<export function="setWeaponStat" type="client"/>  	
+
+
+	
+	<file src="images/r.png"/>
+	<file src="images/je.png"/>
+	<file src="images/b.png"/>
+	<file src="images/g.png"/>
+	<file src="images/y.png"/>
+	<file src="images/hack.png"/>
+	<file src="images/ehc.png"/>
+    <file src="images/hc.png"/>
+    <file src="images/kd.png"/>
+    <file src="images/tk.png"/>
+    <file src="images/br.png"/>
+    <file src="images/pp.png"/>
+    <file src="images/gu.png"/> 
+
+	<file src="food/BURHEAL.png"/>
+	<file src="food/BURLOW.png"/>
+	<file src="food/BURMED.png"/>
+	<file src="food/BURHIG.png"/>
+	<file src="food/PIZHEAL.png"/>
+	<file src="food/PIZLOW.png"/>
+	<file src="food/PIZMED.png"/>
+	<file src="food/PIZHIG.png"/>
+	<file src="food/CLUHEAL.png"/>
+	<file src="food/CLULOW.png"/>
+	<file src="food/CLUMED.png"/>
+	<file src="food/CLUHIG.png"/>
+
+	<file src="sounds/r.mp3" />
+	<file src="sounds/y.mp3" />
+	<file src="sounds/g.mp3" />
+	<file src="sounds/hack.mp3" />
+
+	<file src="sounds/launcher_close.mp3" />
+	<file src="sounds/launcher_fire.mp3" />
+	<file src="sounds/launcher_open.mp3" />
+	<file src="sounds/launcher_insert.mp3" />
+
+	
+	<file src="sounds/introMain.mp3" />
+
+	<file src="sounds/PSiren.mp3" />
+	
+	<file src="images/EFE.png"/>
+	<file src="images/GEL.ttf"/>
+
+	<file src="sounds/0.mp3"/>
+	<file src="sounds/00.mp3"/>
+	<file src="sounds/01.mp3"/>
+	<file src="sounds/02.mp3"/>
+	<file src="sounds/03.mp3"/>
+	<file src="sounds/04.mp3"/>
+	<file src="sounds/05.mp3"/>
+	<file src="sounds/1.mp3"/>
+	<file src="sounds/2.mp3"/>
+	<file src="sounds/3.mp3"/>
+	<file src="sounds/4.mp3"/>
+	<file src="sounds/5.mp3"/>
+	<file src="sounds/6.mp3"/>
+	<file src="sounds/7.mp3"/>
+	<file src="sounds/8.mp3"/>
+	<file src="sounds/9.mp3"/>
+	<file src="sounds/10.mp3"/>
+	<file src="sounds/11.mp3"/>
+	<file src="sounds/12.mp3"/>
+	<file src="sounds/13.mp3"/>
+	<file src="sounds/14.mp3"/>
+	<file src="sounds/15.mp3"/>
+	<file src="sounds/16.mp3"/>
+	<file src="sounds/17.mp3"/>
+	<file src="sounds/18.mp3"/>
+	<file src="sounds/19.mp3"/>
+	<file src="sounds/20.mp3"/>
+	<file src="sounds/21.mp3"/>
+	<file src="sounds/22.mp3"/>
+	<file src="sounds/23.mp3"/>
+	<file src="sounds/24.mp3"/>
+	<file src="sounds/25.mp3"/>
+	<file src="sounds/26.mp3"/>
+	<file src="sounds/27.mp3"/>
+	<file src="sounds/28.mp3"/>
+	<file src="sounds/29.mp3"/>
+	<file src="sounds/30.mp3"/>
+	<file src="sounds/31.mp3"/>
+	<file src="sounds/32.mp3"/>
+	<file src="sounds/33.mp3"/>
+	<file src="sounds/34.mp3"/>
+	<file src="sounds/35.mp3"/>
+	<file src="sounds/36.mp3"/>
+	<file src="sounds/37.mp3"/>
+	<file src="sounds/38.mp3"/>
+	<file src="sounds/39.mp3"/>
+	<file src="sounds/40.mp3"/>
+	
+	<file src="sounds/Intro.mp3" />
+	
+	<file src="models/1.col"/>
+	<file src="models/0.dff"/>
+	<file src="models/1.dff"/>
+	<file src="models/2.dff"/>
+	<file src="models/3.dff"/>
+	<file src="models/4.dff"/>
+	<file src="models/5.dff"/>
+	<file src="models/6.dff"/>
+	<file src="models/7.dff"/>
+	<file src="models/8.dff"/>
+	<file src="models/9.dff"/>
+	<file src="models/10.dff"/>
+	<file src="models/11.dff"/>
+	<file src="models/12.dff"/>
+	<file src="models/13.dff"/>
+	<file src="models/14.dff"/>
+	<file src="models/15.dff"/>
+	<file src="models/16.dff"/>
+	<file src="models/17.dff"/>
+	<file src="models/18.dff"/>
+	<file src="models/19.dff"/>
+	<file src="models/20.dff"/>
+	<file src="models/21.dff"/>
+	<file src="models/22.dff"/>
+	<file src="models/23.dff"/>
+	<file src="models/24.dff"/>
+	<file src="models/25.dff"/>
+	<file src="models/26.dff"/>
+	<file src="models/27.dff"/>
+	<file src="models/28.dff"/>
+	<file src="models/29.dff"/>
+	<file src="models/30.dff"/>
+	<file src="models/31.dff"/>
+	<file src="models/32.dff"/>
+	<file src="models/33.dff"/>
+	<file src="models/34.dff"/>
+	<file src="models/35.dff"/>
+	<file src="models/36.dff"/>
+	<file src="models/37.dff"/>
+	<file src="models/38.dff"/>
+	<file src="models/39.dff"/>
+	<file src="models/40.dff"/>
+	
+	<file src="models/0.txd"/>
+	<file src="models/1.txd"/>
+	<file src="models/2.txd"/>
+	
+	<file src="images/MT.png"/>
+	<file src="images/AR.png"/>
+	<file src="images/SP.png"/>
+	
+	<file src="images/wb.png"/>
+	
+	<file src="images/hi.png" />
+
+	<file src="img/4.png" />
+	<file src="img/5.png" />
+	<file src="img/6.png" />
+	<file src="img/7.png" />
+	<file src="img/8.png" />
+	<file src="img/9.png" />
+	<file src="img/m.png" />	
+</meta>
